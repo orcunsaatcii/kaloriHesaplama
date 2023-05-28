@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "122122703269",
+    "project_id": "kalorihesap-c9f15",
+    "storage_bucket": "kalorihesap-c9f15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122122703269:android:43ba74fa142d32401d584c",
+        "android_client_info": {
+          "package_name": "com.example.kalorihesap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122122703269-vr552s0nbejnoa52sumc5hjrflikjtkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkuaDS1TaqSI99LnBlKoQpsGp3DTfkWDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122122703269-vr552s0nbejnoa52sumc5hjrflikjtkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ad_reg_txt"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:hint="Kullanıcı Adı"
+        android:drawableRight="@drawable/baseline_person_24" />
+
+
+    <EditText
+        android:id="@+id/email_reg_txt"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:drawableRight="@drawable/baseline_email_24"
+        android:ems="10"
+        android:hint="deneme@gmail.com"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/sifre_reg_txt"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:drawableRight="@drawable/baseline_lock_24"
+        android:layout_gravity="center"
+        android:hint="******" />
+
+    <EditText
+        android:id="@+id/sifretekrar_reg_txt"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:drawableRight="@drawable/baseline_lock_24"
+        android:layout_gravity="center"
+        android:hint="******" />
+
+    <Button
+        android:id="@+id/kayit_reg_btn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Kayıt ol"
+        app:backgroundTint="@color/black" />
+
+
+</LinearLayout>
+

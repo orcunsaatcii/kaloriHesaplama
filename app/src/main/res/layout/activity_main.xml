@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="KALORİ HESAPLA"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/kullanici_txt"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:drawableRight="@drawable/baseline_person_24"
+        android:ems="10"
+        android:hint="Kullanıcı Adı"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sifre_txt"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:drawableRight="@drawable/baseline_lock_24"
+        android:layout_gravity="center"
+        android:hint="******" />
+
+
+    <Button
+        android:id="@+id/giris_btn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Giriş Yap"
+        app:backgroundTint="@color/black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="Hesabınız yok mu ?"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/kayit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Kayıt ol"
+            android:textColor="@color/purple"
+            app:backgroundTint="#00CD01EF" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
